@@ -28,6 +28,7 @@ There is no password so leave it blank. If you add password please config .env f
     php <path-to-composer.phar>/composer.phar install           Installs dependencies
     php artisan migrate                                         Creates all the nessesary tables and columns.
     php artisan db:seed                                         Adds the dummy data.
+    php artisan key:generate                                    Generates app key in .env file
     php artisan serve                                           Runs live server.
 ```
 
